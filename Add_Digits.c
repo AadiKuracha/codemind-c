@@ -1,8 +1,9 @@
 #include<stdio.h>
+#include<math.h>
 int main()
 {
-    int n,sum;
+    int n,s;
     scanf("%d",&n);
-    sum=n%9;
-    printf("%d",sum);
+    s=n%9;
+    printf("%d",s);
 }
